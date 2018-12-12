@@ -1,4 +1,5 @@
 @import "font/stylesheet.css";
+@import "js/fm.revealator.jquery.min.css";
 /* 1. Css reset.
  * 2. Blocks styles
  * 3. Classes styles
@@ -38,6 +39,9 @@ body {
 }
 ol, ul {
   list-style: none;
+}
+img {
+  max-width: 100%;
 }
 blockquote, q {
   quotes: none;
@@ -316,6 +320,7 @@ h1 {
 }
 
 .second {
+  padding-bottom: 80px;
   header {
     padding: 75px;
     overflow: hidden;
@@ -384,7 +389,48 @@ h1 {
   .magic {
     width: 100%;
     position: relative;
-    text-align: center;
+
+    .privelege_item:nth-child(even) {
+      text-align: left;
+      padding-left: 250px;
+
+      .icon:before {
+        left: -90px;
+        background-position: right;
+      }
+    }
+    .privelege_item:nth-child(odd) {
+      text-align: right;
+      padding-right: 250px;
+
+      .icon:before {
+        right: -90px;
+      }
+    }
+    .privelege_item:nth-child(3) {
+      padding-right: 320px;
+    }
+    .privelege_item:nth-child(4) {
+      padding-left: 320px;
+    }
+    .ico_1:before {
+      background: url("img/icons/spa.svg");
+    }
+    .ico_2:before {
+      background: url("img/icons/molecule.svg");
+    }
+    .ico_3:before {
+      background: url("img/icons/molecule1.svg");
+    }
+    .ico_4:before {
+      background: url("img/icons/mindfulness.svg");
+    }
+    .ico_5:before {
+      background: url("img/icons/eyebrow.svg");
+    }
+    .ico_6:before {
+      background: url("img/icons/plant.svg");
+    }
 
     img {
       display: block;
@@ -392,6 +438,9 @@ h1 {
       max-width: 100%;
     }
     ul {
+      display: flex;
+      flex-wrap: wrap;
+
       position: absolute;
       width: 100%;
       height: 100%;
@@ -399,11 +448,35 @@ h1 {
       top: 0;
 
       li {
-        position: absolute;
-        color: #d4a857;
-        text-transform: uppercase;
+        width: 100%;
+        color: #000;
         line-height: 32px;
-        border-bottom: 2px solid #d4a857;
+        word-break: break-all;
+        word-wrap: break-word;
+        box-sizing: border-box;
+
+        .icon:before {
+          display: block;
+          content: "";
+          position: absolute;
+          top: 0;
+          width: 80px;
+          height: 60px;
+
+          background-repeat: no-repeat;
+          background-size: contain;
+          max-height: 60px;
+        }
+        strong {
+          color: #000;
+          display: block;
+          font-size: 16px;
+          font-weight: bold;
+          position: relative;
+        }
+        p {
+          font-size: 14px;
+        }
       }
 
       .slide_1 {
@@ -434,8 +507,103 @@ h1 {
 
 .third {
   background: #fbfaf7;
+  padding-top: 20px;
+  .into {
+    color: #838383;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 20px;
+  }
+  .description {
+    text-align: center;
+    font-weight: lighter;
+    line-height: 25px;
+    font-size: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px 10px;
+    color: #6f6f6f;
+  }
+  h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px 0;
+  }
+  .after_text {
+    text-align: center;
+    display: block;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    color: #000;
+  }
+
+  .graphic_1 {
+    max-width: 1150px;
+    text-align: center;
+    margin: 0 auto;
+
+    .orange_line {
+      display: inline-block;
+      width: 100%;
+      color: #fff;
+      padding: 10px;
+      margin: 18px;
+      max-width: 40%;
+      text-align: left;
+
+      //background-image: -moz-linear-gradient( 31deg, rgb(226,180,84) 0%, rgb(206,141,49) 100%);
+      //background-image: -webkit-linear-gradient( 31deg, rgb(226,180,84) 0%, rgb(206,141,49) 100%);
+      //background-image: -ms-linear-gradient( 31deg, rgb(226,180,84) 0%, rgb(206,141,49) 100%);
+      //box-shadow: 0 10px 35px 0 rgba(0, 0, 0, 0.25);
+
+    }
+
+  }
+
+}
+.fourth {
+
+}
+.fives {
+
+}
+.six {
+  .hero_stripe {
+
+  }
 }
 
+.for(@list, @code) {
+  & {
+    .loop(@i:1) when (@i =< length(@list)) {
+      @value: extract(@list, @i);
 
+      @code();
+
+      .loop(@i + 1);
+    }
+
+    .loop();
+  }
+}
+
+@graph_width: 100, 97, 91, 81, 78;
+
+.for(@graph_width, {
+  .p_@value {
+  background-image: -moz-linear-gradient( 31deg, rgb(226,180,84) 0%, rgb(206,141,49) @value%);
+  background-image: -webkit-linear-gradient( 31deg, rgb(226,180,84) 0%, rgb(206,141,49) @value%);
+  background-image: -ms-linear-gradient( 31deg, rgb(226,180,84) 0%, rgb(206,141,49) @value%);
+  box-shadow: 0 10px 35px 0 rgba(0, 0, 0, 0.25);
+  }
+});
 
 @import "adaptive.css";
