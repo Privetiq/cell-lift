@@ -33,6 +33,7 @@ window.onscroll = function() {
 
 
 };
+
 $(document).ready(function () {
     if (window.innerWidth > 1024) {
         $(".slider li").each(function (index, element) {

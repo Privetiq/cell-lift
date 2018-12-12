@@ -14,7 +14,7 @@
       display: none;
     }
     .first div.play {
-      display: flex;
+      display: flex; 
     }
 
     .second {
@@ -104,5 +104,46 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+
+    .second {
+      header {
+        padding: 25px 0;
+      }
+      .slider_mob ul li {
+        font-size: 18px;
+      }
+      .magic {
+        ul {
+
+          li {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media (min-width: 600px) {
+  .wrapper {
+
+    .second {
+
+      .magic {
+        ul {
+
+          li {
+            max-width: 49%;
+          }
+        }
+      }
+    }
+
   }
 }
