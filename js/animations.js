@@ -42,6 +42,7 @@ window.onscroll = function() {
 $(document).ready(function () {
 
     var video = document.getElementById('video_file');
+    
     var play_video = function () {
         $('.video_clip').show();
         video.play();
@@ -51,9 +52,14 @@ $(document).ready(function () {
         $('.video_clip').hide();
     };
 
+    video.onpause = pause_video; 
+    video.onplaying = play_video; 
     $('.play_block').click(play_video);
 
     $('.right_col').click(play_video);
+    if (video.paused) {
+        pause_video;
+    }
     $('.video_clip').click(pause_video);
 
 
