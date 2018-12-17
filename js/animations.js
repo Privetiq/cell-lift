@@ -54,7 +54,7 @@ $(document).ready(function () {
     $('.play_block').click(play_video);
 
     $('.right_col').click(play_video);
-    $('#video_file').click(pause_video);
+    $('.video_clip').click(pause_video);
 
 
     if (window.innerWidth > 1024) {
