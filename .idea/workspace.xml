@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="795334d1-15b4-43cc-8045-10d7c8e3ad39" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adaptive.css" afterPath="$PROJECT_DIR$/adaptive.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adaptive.less" afterPath="$PROJECT_DIR$/adaptive.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,7 +21,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.77458036">
+    <splitter split-orientation="horizontal" split-proportion="0.33753">
       <split-first>
         <splitter split-orientation="horizontal" split-proportion="0.5453137">
           <split-first>
@@ -29,7 +29,7 @@
               <file leaf-file-name="animations.js" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/js/animations.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="153">
+                    <state relative-caret-position="289">
                       <caret line="9" column="61" lean-forward="false" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
                       <folding />
                     </state>
@@ -63,7 +63,7 @@
               <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/index.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="560">
+                    <state relative-caret-position="1359">
                       <caret line="176" column="102" lean-forward="false" selection-start-line="176" selection-start-column="102" selection-end-line="176" selection-end-column="102" />
                       <folding>
                         <element signature="e#10050#10056#1" expanded="true" />
@@ -80,11 +80,21 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="adaptive.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/adaptive.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="390" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="3279" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="adaptive.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/adaptive.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="311">
-                  <caret line="163" column="3" lean-forward="false" selection-start-line="163" selection-start-column="3" selection-end-line="163" selection-end-column="3" />
+                <state relative-caret-position="712">
+                  <caret line="253" column="1" lean-forward="false" selection-start-line="253" selection-start-column="1" selection-end-line="253" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -94,7 +104,7 @@
             <entry file="file://$PROJECT_DIR$/style.less">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="186">
-                  <caret line="160" column="16" lean-forward="true" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="16" />
+                  <caret line="160" column="16" lean-forward="false" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -151,10 +161,10 @@
       <find>figure</find>
       <find>play</find>
       <find>.play</find>
-      <find>video</find>
       <find>consol</find>
       <find>revealator-delay</find>
       <find>button_gold</find>
+      <find>video</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -267,6 +277,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="style.less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cell-lift.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cell-lift.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adaptive.less" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -419,12 +443,12 @@
       <workItem from="1544630352713" duration="7011000" />
       <workItem from="1544736991966" duration="14058000" />
       <workItem from="1544890411291" duration="1064000" />
-      <workItem from="1544969559538" duration="17276000" />
+      <workItem from="1544969559538" duration="17678000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100747000" />
+    <option name="totallyTimeSpent" value="101149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -437,7 +461,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16499442" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21962096" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21962096" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -479,14 +503,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/font/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -767,14 +783,14 @@
     <entry file="file://$PROJECT_DIR$/style.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
-          <caret line="160" column="16" lean-forward="true" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="16" />
+          <caret line="160" column="16" lean-forward="false" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
+        <state relative-caret-position="1359">
           <caret line="176" column="102" lean-forward="false" selection-start-line="176" selection-start-column="102" selection-end-line="176" selection-end-column="102" />
           <folding>
             <element signature="e#10050#10056#1" expanded="true" />
@@ -786,16 +802,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/animations.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="289">
           <caret line="9" column="61" lean-forward="false" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adaptive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="390" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="3279" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/adaptive.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="163" column="3" lean-forward="false" selection-start-line="163" selection-start-column="3" selection-end-line="163" selection-end-column="3" />
+        <state relative-caret-position="712">
+          <caret line="253" column="1" lean-forward="false" selection-start-line="253" selection-start-column="1" selection-end-line="253" selection-end-column="1" />
           <folding />
         </state>
       </provider>
