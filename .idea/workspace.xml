@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="795334d1-15b4-43cc-8045-10d7c8e3ad39" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/font/stylesheet.css" afterPath="$PROJECT_DIR$/font/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.less" afterPath="$PROJECT_DIR$/style.less" />
     </list>
@@ -64,8 +63,8 @@
               <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/index.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="413">
-                      <caret line="124" column="69" lean-forward="false" selection-start-line="124" selection-start-column="69" selection-end-line="124" selection-end-column="69" />
+                    <state relative-caret-position="379">
+                      <caret line="123" column="24" lean-forward="false" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
                       <folding>
                         <element signature="e#10287#10293#1" expanded="true" />
                         <element signature="e#10626#10632#1" expanded="true" />
@@ -94,8 +93,8 @@
           <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="154">
-                  <caret line="827" column="6" lean-forward="true" selection-start-line="827" selection-start-column="6" selection-end-line="827" selection-end-column="6" />
+                <state relative-caret-position="426">
+                  <caret line="152" column="19" lean-forward="false" selection-start-line="152" selection-start-column="19" selection-end-line="152" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -126,7 +125,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>-webkit-background-image: url(&quot;/img/icons/mindfulness.png&quot;);</find>
       <find>spa</find>
       <find>spa.</find>
       <find>.ic</find>
@@ -156,6 +154,7 @@
       <find>revealator</find>
       <find>privelege_item</find>
       <find>.desc</find>
+      <find>gold</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -437,12 +436,12 @@
       <workItem from="1545026958338" duration="599000" />
       <workItem from="1545083295397" duration="1000" />
       <workItem from="1545083465481" duration="13000" />
-      <workItem from="1545086051458" duration="7216000" />
+      <workItem from="1545086051458" duration="7581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110648000" />
+    <option name="totallyTimeSpent" value="111013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -788,18 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="124" column="69" lean-forward="false" selection-start-line="124" selection-start-column="69" selection-end-line="124" selection-end-column="69" />
-          <folding>
-            <element signature="e#10287#10293#1" expanded="true" />
-            <element signature="e#10626#10632#1" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/font/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -808,10 +795,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="123" column="24" lean-forward="false" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
+          <folding>
+            <element signature="e#10287#10293#1" expanded="true" />
+            <element signature="e#10626#10632#1" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="827" column="6" lean-forward="true" selection-start-line="827" selection-start-column="6" selection-end-line="827" selection-end-column="6" />
+        <state relative-caret-position="426">
+          <caret line="152" column="19" lean-forward="false" selection-start-line="152" selection-start-column="19" selection-end-line="152" selection-end-column="19" />
           <folding />
         </state>
       </provider>
