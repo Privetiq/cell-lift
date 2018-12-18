@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="795334d1-15b4-43cc-8045-10d7c8e3ad39" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adaptive.css" afterPath="$PROJECT_DIR$/adaptive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adaptive.less" afterPath="$PROJECT_DIR$/adaptive.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.less" afterPath="$PROJECT_DIR$/style.less" />
     </list>
@@ -80,21 +82,21 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="adaptive.less" pinned="false" current-in-tab="false">
+          <file leaf-file-name="adaptive.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/adaptive.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="595">
-                  <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+                <state relative-caret-position="170">
+                  <caret line="235" column="20" lean-forward="false" selection-start-line="235" selection-start-column="20" selection-end-line="235" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
+          <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/style.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="205">
-                  <caret line="139" column="12" lean-forward="false" selection-start-line="139" selection-start-column="1" selection-end-line="139" selection-end-column="12" />
+                <state relative-caret-position="392">
+                  <caret line="792" column="26" lean-forward="false" selection-start-line="792" selection-start-column="26" selection-end-line="792" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -125,7 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>spa</find>
       <find>spa.</find>
       <find>.ic</find>
       <find>price</find>
@@ -148,13 +149,14 @@
       <find>pods</find>
       <find>slid</find>
       <find>slide_1</find>
-      <find>kolo</find>
       <find>magic</find>
       <find>nth-child(</find>
       <find>revealator</find>
       <find>privelege_item</find>
       <find>.desc</find>
       <find>gold</find>
+      <find>kolo</find>
+      <find>five</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -171,12 +173,12 @@
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/adaptive.less" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/font/stylesheet.css" />
         <option value="$PROJECT_DIR$/js/percentage.js" />
         <option value="$PROJECT_DIR$/js/animations.js" />
         <option value="$PROJECT_DIR$/style.less" />
+        <option value="$PROJECT_DIR$/adaptive.less" />
       </list>
     </option>
   </component>
@@ -436,12 +438,12 @@
       <workItem from="1545026958338" duration="599000" />
       <workItem from="1545083295397" duration="1000" />
       <workItem from="1545083465481" duration="13000" />
-      <workItem from="1545086051458" duration="9213000" />
+      <workItem from="1545086051458" duration="9795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112645000" />
+    <option name="totallyTimeSpent" value="113227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -755,14 +757,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adaptive.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/font/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -809,8 +803,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="139" column="12" lean-forward="false" selection-start-line="139" selection-start-column="1" selection-end-line="139" selection-end-column="12" />
+        <state relative-caret-position="392">
+          <caret line="792" column="26" lean-forward="false" selection-start-line="792" selection-start-column="26" selection-end-line="792" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adaptive.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="235" column="20" lean-forward="false" selection-start-line="235" selection-start-column="20" selection-end-line="235" selection-end-column="20" />
           <folding />
         </state>
       </provider>
