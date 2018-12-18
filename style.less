@@ -34,7 +34,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
-  font-family: "Myriad Pro";
+  font-family: 'Bw Modelica LGC';
   color: #d4a856;
   overflow-x: hidden;
 }
@@ -100,7 +100,7 @@ h1 {
   position: absolute;
   top: 10px;
   width: 100%;
-  height: 300px;
+  height: 200px;
   text-align: center;
   display:block;
   color: #fff;
@@ -209,14 +209,35 @@ h1 {
     width: 100%;
     position: absolute;
     bottom: 0;
+    display: flex;
+    justify-content: center;
   }
-  & .hero {
+  & .kolo {
      position: absolute;
      width: 100%;
      height: 100%;
      object-fit: contain;
      bottom: 0;
      z-index: 2;
+  }
+  & .podstavka {
+    position: absolute;
+    width: 100%;
+    max-width: 474px;
+    height: 100%;
+    object-fit: contain;
+    z-index: 3;
+    max-height: 402px;
+    bottom: -120px;
+    opacity: .95;
+  }
+  & .hero {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    bottom: 0;
+    z-index: 4;
   }
 
   & .play_block {
@@ -252,7 +273,7 @@ h1 {
     height: 100%;
     left: 0;
     top: 0;
-    z-index: 2;
+    z-index: 4;
 
     & li {
       display: inline-block;
@@ -261,17 +282,21 @@ h1 {
       position: absolute;
       text-transform: uppercase;
       font-size: 20px;
+      font-weight: 300;
       opacity: 0;
+      text-shadow: 0 0 25px #ffc85e;
       &:after {
         display: block;
         content: "";
         border-bottom: 1px solid #d4a856;
         width: 100px;
         position: absolute;
+        filter: brightness(1.4);
       }
     }
     .slide_2, .slide_4, .slide_6 {
       right: calc(~"50% + 120px");
+      text-indent: -40px;
 
       &:after {
         transform: rotate(45deg);
@@ -284,7 +309,7 @@ h1 {
       }
     }
     .slide_1 {
-      top: 25%;
+      top: 30%;
       transition: opacity 1s ease-out;
 
       &:after {
@@ -294,7 +319,7 @@ h1 {
       }
     }
     .slide_2 {
-      top: 35%;
+      top: 34%;
       transition: opacity 1s ease-out 1s;
       &:after {
         right: -85px;
@@ -303,7 +328,7 @@ h1 {
       }
     }
     .slide_3 {
-      top: 45%;
+      top: 40%;
       transition: opacity 1s ease-out 2s;
       &:after {
         left: -98px;
@@ -312,7 +337,7 @@ h1 {
       }
     }
     .slide_4 {
-      top: 55%;
+      top: 46%;
       transition: opacity 1s ease-out 3s;
       &:after {
         right: -98px;
@@ -321,7 +346,7 @@ h1 {
       }
     }
     .slide_5 {
-      top: 65%;
+      top: 52%;
       transition: opacity 1s ease-out 4s;
       &:after {
         left: -97px;
@@ -330,7 +355,7 @@ h1 {
       }
     }
     .slide_6 {
-      top: 75%;
+      top: 60%;
       transition: opacity 1s ease-out 5s;
       &:after {
         right: -85px;
@@ -349,6 +374,7 @@ h1 {
     max-width: 1150px;
     margin: 0 auto;
     position: relative;
+    z-index: 5;
     box-shadow: 0 0 56px rgba(0,0,0, .35);
     background: #fff;
     top: 0;

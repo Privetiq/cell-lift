@@ -13,8 +13,6 @@ window.onscroll = function() {
 
     if (scrolled > 50) {
         $(".second header").css("top", '-50px');
-    } else {
-        $(".second header").css("top", '0px');
     }
 
     var slides = $(".slider_mob ul li");

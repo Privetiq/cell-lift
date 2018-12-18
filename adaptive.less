@@ -9,8 +9,14 @@
   }
 }
 
+@media (min-width: 1024px) {
+  .first .play_block {
+    display: none !important;
+  }
+}
 @media (max-width: 1024px) {
   .wrapper {
+
     .first {
       .play_block {
         display: flex;
@@ -19,9 +25,16 @@
         display: none;
       }
       #product_name {
-        top: -40px;
+        background-size: contain;
+        top: 0;
       }
+      .kolo {
+        opacity: .33;
+        filter: contrast(1.22);
+      }
+      figure {
 
+      }
     }
 
     .second {
