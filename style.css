@@ -199,7 +199,7 @@ canvas {
 }
 .button_gold {
   display: block;
-  background: linear-gradient(0deg, #e2b454, #ecaa31);
+  background: linear-gradient(45deg, #e2b454 0%, #d9a244 50%, #ce8d31 100%);
   box-shadow: 1px 1px 4px #888;
   text-decoration: none;
   text-transform: uppercase;
