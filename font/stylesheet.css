@@ -3,8 +3,6 @@
 @font-face {
 	font-family: 'Bw Modelica LGC';
 	src: url('BwModelicaLGCExtraBold.ttf');
-	src: local('Bw Modelica LGC ExtraBold');
-url('BwModelicaLGCBoldItalic.ttf') format('truetype');
 	font-weight: 900;
 	font-style: italic;
 }
@@ -12,8 +10,6 @@ url('BwModelicaLGCBoldItalic.ttf') format('truetype');
 @font-face {
 	font-family: 'Bw Modelica LGC';
 	src: url('BwModelicaLGCBoldItalic.ttf');
-	src: local('Bw Modelica LGC Bold Italic');
-	url('BwModelicaLGCBoldItalic.ttf') format('truetype');
 	font-weight: bold;
 	font-style: italic;
 }
@@ -21,37 +17,30 @@ url('BwModelicaLGCBoldItalic.ttf') format('truetype');
 @font-face {
 	font-family: 'Bw Modelica LGC';
 	src: url('BwModelicaLGCBold.ttf');
-	src: local('Bw Modelica LGC Bold');
-url('BwModelicaLGCBold.ttf') format('truetype');
 	font-weight: bold;
+	font-style: normal;
 }
 @font-face {
 	font-family: 'Bw Modelica LGC';
 	src: url('BwModelicaLGCMedium.ttf');
-	src: local('Bw Modelica LGC Medium');
-url('BwModelicaLGCMedium.ttf') format('truetype');
 	font-weight: normal;
+	font-style: normal;
 }
 @font-face {
 	font-family: 'Bw Modelica LGC';
 	src: url('BwModelicaLGCMediumItalic.ttf');
-	src: local('Bw Modelica LGC Medium Italic');
-url('Bw Modelica LGC Medium Italic.ttf') format('truetype');
 	font-weight: normal;
 	font-style: italic;
 }
 @font-face {
 	font-family: 'Bw Modelica LGC';
 	src: url('BwModelicaLGCRegular.ttf');
-	src: local('Bw Modelica LGC Regular');
-url('Bw Modelica LGC Regular.ttf') format('truetype');
 	font-weight: 300;
+	font-style: normal;
 }
 @font-face {
 	font-family: 'Bw Modelica LGC';
 	src: url('BwModelicaLGCRegularItalic.ttf');
-	src: local('Bw Modelica LGC Regular Italic');
-url('BwModelicaLGCRegularItalic.ttf') format('truetype');
 	font-weight: 300;
 	font-style: italic;
 }
