@@ -7,7 +7,7 @@ window.onscroll = function() {
 
     // console.log(slider_mob[0].offsetTop);
 
-    if (scrolled < percents_block_1[0].offsetTop - height*0.8) {
+    if (scrolled < percents_block_1[0].offsetTop - 100 && scrolled > percents_block_1[0].offsetTop) {
         $('.count-number').html(0).countTo();
     }
 
