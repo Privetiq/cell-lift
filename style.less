@@ -34,7 +34,7 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 body {
-  line-height: 1;
+  line-height: 1.5;
   font-family: 'Bw Modelica LGC';
   color: #d4a856;
   overflow-x: hidden;
@@ -298,7 +298,7 @@ h1 {
       }
     }
     .slide_2, .slide_4, .slide_6 {
-      right: calc(~"50% + 120px");
+      right: calc(~"50% + 100px");
       text-indent: -40px;
 
       &:after {
@@ -306,14 +306,14 @@ h1 {
       }
     }
     .slide_1, .slide_3, .slide_5 {
-      left: calc(~"50% + 120px");
+      left: calc(~"50% + 100px");
       &:after {
 
       }
     }
     .slide_1 {
       top: 30%;
-      transition: opacity 1s ease-out;
+      // transition: opacity 1s ease-out;
 
       &:after {
         left: -85px;
@@ -323,7 +323,7 @@ h1 {
     }
     .slide_2 {
       top: 34%;
-      transition: opacity 1s ease-out 1s;
+      // transition: opacity 1s ease-out 1s;
       &:after {
         right: -85px;
         bottom: -36px;
@@ -332,7 +332,7 @@ h1 {
     }
     .slide_3 {
       top: 40%;
-      transition: opacity 1s ease-out 2s;
+      // transition: opacity 1s ease-out 2s;
       &:after {
         left: -98px;
         bottom: -14px;
@@ -341,7 +341,7 @@ h1 {
     }
     .slide_4 {
       top: 46%;
-      transition: opacity 1s ease-out 3s;
+      // transition: opacity 1s ease-out 3s;
       &:after {
         right: -98px;
         bottom: -14px;
@@ -350,7 +350,7 @@ h1 {
     }
     .slide_5 {
       top: 52%;
-      transition: opacity 1s ease-out 4s;
+      // transition: opacity 1s ease-out 4s;
       &:after {
         left: -97px;
         bottom: 12px;
@@ -359,7 +359,7 @@ h1 {
     }
     .slide_6 {
       top: 60%;
-      transition: opacity 1s ease-out 5s;
+      // transition: opacity 1s ease-out 5s;
       &:after {
         right: -85px;
         bottom: 34px;
@@ -375,12 +375,12 @@ h1 {
     padding: 50px;
     overflow: hidden;
     max-width: 1150px;
-    margin: 0 auto;
+    margin: 0 auto -50px;
     position: relative;
     z-index: 5;
     box-shadow: 0 0 56px rgba(0,0,0, .35);
     background: #fff;
-    top: 0;
+    top: -50px;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
@@ -403,6 +403,7 @@ h1 {
 
       .button_gold {
         float: right;
+        margin-top: 20px;
       }
     }
   }
@@ -574,7 +575,7 @@ h1 {
     font-size: 20px;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 20px 10px;
+    padding: 20px 10px;
     color: #6f6f6f;
   }
   h2 {
@@ -773,7 +774,7 @@ h1 {
   .conclusion p {
     padding: 10px;
     color: #838383;
-    line-height: 20px;
+    line-height: 25px;
     font-size: 16px;
     letter-spacing: 2px;
   }
@@ -799,6 +800,8 @@ h1 {
       font-size: 20px;
       font-weight: bold;
       line-height: 26px;
+      display: block;
+      min-height: 52px;
     }
     span {
       font-size: 40px;

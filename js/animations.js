@@ -7,10 +7,10 @@ window.onscroll = function() {
 
     // console.log(slider_mob[0].offsetTop);
 
-    if (scrolled < percents_block_1[0].offsetTop - 100 && scrolled > percents_block_1[0].offsetTop) {
-        $('.count-number').html().countTo();
-    }
-parseInt('s')
+    // if (scrolled < percents_block_1[0].offsetTop + height && $('.count-number').html(0) {
+    //     $('.count-number').html(0).countTo();
+    // }
+
     if (scrolled > 50) {
         $(".second header").css("top", '-50px');
     }
