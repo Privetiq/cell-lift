@@ -11,9 +11,9 @@ window.onscroll = function() {
     //     $('.count-number').html(0).countTo();
     // }
 
-    if (scrolled > 50) {
-        $(".second header").css("top", '-50px');
-    }
+    // if (scrolled > 50) {
+    //     $(".second header").css("top", '-50px');
+    // }
 
     var slides = $(".slider_mob ul li");
     var points = $(".points div");

@@ -27,6 +27,7 @@ time, mark, audio, video {
   font: inherit;
   font-family: 'Bw Modelica LGC';
   vertical-align: baseline;
+  box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -232,7 +233,6 @@ h1 {
     z-index: 3;
     max-height: 402px;
     bottom: -120px;
-    opacity: .95;
   }
   & .hero {
     position: absolute;
@@ -249,7 +249,6 @@ h1 {
     height: 120px;
     bottom: calc(~"50% - 62px");
     left: calc(~"50% - 62px");
-    border: 2px solid #d4a856;
     border-radius: 50%;
     text-align: center;
     justify-content: center;
@@ -261,9 +260,6 @@ h1 {
 
     &:hover .play_img {
       filter: contrast(1.2);
-    }
-    &:hover {
-      box-shadow: 0 0 20px #000;
     }
   }
   & .play_img {
