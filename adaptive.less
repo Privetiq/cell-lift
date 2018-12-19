@@ -46,6 +46,7 @@
       
       header {
         top: 0;
+        margin: 0 auto;
       }
       
       .left_side {
@@ -62,6 +63,7 @@
         padding-bottom: 35px;
         margin-bottom: 35px;
         box-shadow: 0 0 30px #cecece;
+        padding: 20px;
 
         .points {
           position: absolute;
@@ -138,13 +140,17 @@
         li.privelege_item {
           width: 100%;
           max-width: 100%;
-          padding: 80px 20px 20px 20px;
+          padding: 120px 20px 20px 20px;
           text-align: center;
+          line-height: 1;
 
           .icon i {
-            top: -80px;
+            top: -100px;
             left: calc(~"50% - 40px");
             background-position: center;
+            width: 80px;
+            height: 80px;
+            max-height: 80px;
           }
         }
       }
@@ -184,13 +190,24 @@
   }
 }
 
+@media (max-width: 400px) {
+  .wrapper {
+    .button_gold {
+      width: 280px;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+  }
+}
 @media (max-width: 600px) {
   .wrapper .first .hero {
     left: 0;
   }
   .wrapper {
     .button_gold {
-      width: 280px;
+      width: 320px;
+      margin: 0 auto;
+      max-width: 100%;
     }
     .second {
       header {
@@ -235,12 +252,27 @@
     .fourth {
       .graphs {
         div p {
-          width: 50px;
+          width: 40px;
+          height: 68px;
+          overflow: hidden;
         }
         .now {
           left: 15%;
           font-size: 14px;
         }
+      }
+      .conclusion {
+        p {
+          margin-bottom: 12px; 
+        }
+      }
+    }
+    .fives div strong {
+      min-height: auto;
+    }
+    .seven {
+      .banner {
+        padding: 20px;
       }
     }
   }

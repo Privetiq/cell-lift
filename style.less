@@ -232,7 +232,7 @@ h1 {
     object-fit: contain;
     z-index: 3;
     max-height: 402px;
-    bottom: -120px;
+    bottom: -60px;
   }
   & .hero {
     position: absolute;
@@ -259,7 +259,7 @@ h1 {
     z-index: 5;
 
     &:hover .play_img {
-      filter: contrast(1.2);
+      filter: contrast(.7);
     }
   }
   & .play_img {
@@ -376,7 +376,7 @@ h1 {
     z-index: 5;
     box-shadow: 0 0 56px rgba(0,0,0, .35);
     background: #fff;
-    top: -50px;
+    top: -104px;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
@@ -388,9 +388,11 @@ h1 {
 
       h2 {
         font-size: 48px;
+        line-height: 48px;
       }
       p {
         font-size: 24px;
+        line-height: 24px;
       }
     }
     .right_side {
@@ -399,7 +401,7 @@ h1 {
 
       .button_gold {
         float: right;
-        margin-top: 20px;
+        margin-top: 10px;
       }
     }
   }
@@ -517,12 +519,16 @@ h1 {
         strong {
           color: #000;
           display: block;
-          font-size: 16px;
+          font-size: 20px;
+          line-height: 25px;
           font-weight: bold;
           position: relative;
+          margin-bottom: 10px;
         }
         p {
-          font-size: 14px;
+          font-size: 20px;
+          line-height: 25px;
+          color: #838383;
         }
       }
 
@@ -554,7 +560,7 @@ h1 {
 
 .third {
   background: #fbfaf7;
-  padding-top: 20px;
+  padding: 20px;
   .into {
     color: #838383;
     font-size: 14px;
@@ -562,7 +568,7 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     line-height: 20px;
-    padding-top: 20px;
+    padding: 10px;
   }
   .description {
     text-align: center;
@@ -578,6 +584,7 @@ h1 {
     font-size: 32px;
     font-weight: bold;
     text-align: center;
+    line-height: 1;
     color: #000;
     font-family: 'Open Sans', sans-serif;
     padding: 20px 0;
@@ -612,15 +619,15 @@ h1 {
       span {
         position: absolute;
         right: 10px;
-        top: 10px;
+        top: 5px;
       }
       p {
-        padding: 10px;
+        padding: 5px 20px;
         position: relative;
 
-        background-image: -moz-linear-gradient( 31deg, rgb(226,180,84) 0%, rgb(206,141,49) 100%);
-        background-image: -webkit-linear-gradient( 31deg, rgb(226,180,84) 0%, rgb(206,141,49) 100%);
-        background-image: -ms-linear-gradient( 31deg, rgb(226,180,84) 0%, rgb(206,141,49) 100%);
+        background-image: -moz-linear-gradient(0deg, #e2b454 0%, #d59b3d 50%, #ce8d31 100%);
+        background-image: -webkit-linear-gradient(0deg, #e2b454 0%, #d59b3d 50%, #ce8d31 100%);
+        background-image: -ms-linear-gradient(0deg, #e2b454 0%, #d59b3d 50%, #ce8d31 100%);
         box-shadow: 0 10px 35px 0 rgba(0, 0, 0, 0.25);
       }
     }
@@ -652,6 +659,13 @@ h1 {
   max-width: 1150px;
   overflow: hidden;
 
+  .conclusion {
+    line-height: 1;
+    color: #404040;
+    p {
+      padding: 10px 30px;
+    }
+  }
   .left_side {
     width: 50%;
     float: left;
@@ -718,8 +732,7 @@ h1 {
           position: absolute;
           top: -20px;
           width: 100%;
-
-
+          font-weight: bold;
         }
         p {
           display: block;
@@ -794,7 +807,7 @@ h1 {
       text-transform: uppercase;
       color: #000;
       font-size: 20px;
-      font-weight: bold;
+      font-weight: 900;
       line-height: 26px;
       display: block;
       min-height: 52px;
@@ -875,7 +888,7 @@ h1 {
       left: calc(~"50% - 125px");
       width: 100%;
       color: #fffc;
-      line-height: 30px;
+      line-height: 25px;
     }
     span {
       display: block;
