@@ -4,13 +4,7 @@ var percents_block_3 = document.getElementsByClassName('col_3');
 window.onscroll = function() {
     var scrolled = window.pageYOffset;
     var height = window.innerHeight;
-
-    // console.log(slider_mob[0].offsetTop);
-
-    // if (scrolled < percents_block_1[0].offsetTop + height && $('.count-number').html(0) {
-    //     $('.count-number').html(0).countTo();
-    // }
-
+    
     var slides = $(".slider_mob ul li");
     var points = $(".points div");
 
